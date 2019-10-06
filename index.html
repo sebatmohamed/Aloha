@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="./css/reset.css">
 
     <meta charset="UTF-8">
 
@@ -9,7 +9,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="/css/flickity.css" media="screen">
+    <link rel="stylesheet" href="./css/flickity.css" media="screen">
 
     <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet"> -->
 
@@ -18,9 +18,9 @@
     <title>Aloha</title>
 
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
-    <script src="/js/flickity.pkgd.min.js"></script>
+    <script src="./js/flickity.pkgd.min.js"></script>
 
     <script src="https://kit.fontawesome.com/2d0ec2a697.js" crossorigin="anonymous"></script>
 
@@ -29,19 +29,22 @@
     <header>
         <div class="header-img">
             <img alt="Aloha Apparel logo" src="images/aloha-logo.svg" class="aloha-logo">
-            <img alt="Shopping Cart" src="images/cart-icon.svg" class="cart-logo">
+                <div class="cart-notif">
+                    <img alt="Shopping Cart" src="images/cart-icon.svg" class="cart-logo">
+                    <div class="notif"></div>
+                </div>
         </div>
+
         <hr>
-        <div>
+        
         <nav>
             <ul class="navigation-bar">
-                <li><a href="#nav-item">ABOUT</a></li>
-                <li><a href="#nav-item">SHOP</a></li>
-                <li><a href="#nav-item">FEATURED</a></li>
-                <li><a href="#nav-item">UPDATES</a></li>
+                <li><a href="#nav-item">About</a></li>
+                <li><a href="#nav-item">Shop</a></li>
+                <li><a href="#nav-item">Featured</a></li>
+                <li><a href="#nav-item">Updates</a></li>
             </ul>
         </nav>
-        </div>
     </header>
 
     <div class="empty-space"></div>
@@ -59,21 +62,25 @@
             <div class="paragraph-text">    
                 <p>
                     Aloha Apparel Co. sells only the finest ready-to-travel clothing.
-                    Browse our current selection of products or sign-up for updates below.
+                    Browse our current selection of products or sign-udiv for updates below.
                 </p>
             </div>
         </section>
-        <section class="categories">
-            <p class="img1">MEN'S</p>
-        <div class="row">
-            <p class="img2">TRENDS</p>
-            <p class="img3">GLASSES</p>
-        </div>
-        <div class="row">
-            <p class="img4">SALE</p>
-            <p class="img5">BAGS</p>
-        </div>
-            <p class="img6">WOMEN'S</p>
+        <section class="flex-grid">
+            <div class="row">
+                <p class="img1">Men's</p>
+                    <div class="small">
+                        <p class="img2">Trends</p>
+                        <p class="img3">Glasses</p>
+                    </div>  
+            </div>
+            <div class="row">  
+                <div class="small">     
+                    <p class="img4">Sale</p>
+                    <p class="img5">Bags</p>
+                </div>
+                    <p class="img6">Women's</p>
+            </div>
         </section>
         <section class="product-info">
             <h2>Most-Loved <span class="style">Products</span></h2>
@@ -81,50 +88,83 @@
                     <div class="carousel-cell">
                         <figure>
                             <img alt="Black Pokadot Dress" src="images/stretch-knit-dress.jpg">
-                            <p>DRESSES</p>
+                            <p>Dresses</p>
                             <h3>Stretch Knit Dress</h3>
                             <p>$169.00</p>
-                        </figure>
+                            <div>
+                                <input type="submit" value="Add to Cart" class="cart">
+                            </div>                        </figure>
                     </div>
                     <div class="carousel-cell">
                         <figure>
                             <img alt="Blue Denim Shirt" src="images/cotton-blue-shirt.jpg">
-                            <p>SHIRTS</p>
+                            <p>Shirts</p>
                             <h3>Cotton Blue Shirt</h3>
                             <p>$89.00</p>
-                        </figure>
+                            <div>
+                                <input type="submit" value="Add to Cart" class="cart">
+                            </div>                        </figure>
                     </div>
                     <div class="carousel-cell">
                         <figure>
                             <img alt="Red Checkered Dress" src="images/checked-stretch-dress.jpg">
-                            <p>DRESSES</p>
+                            <p>Dresses</p>
                             <h3>Checked Stretch Dress</h3>
                             <p>$129.00</p>
-                        </figure>
+                            <div>
+                                <input type="submit" value="Add to Cart" class="cart">
+                            </div>                        </figure>
                     </div>
                     <div class="carousel-cell">
                         <figure>
                             <img alt="BLue Backpack" src="images/blue-hipster-backpack.jpg">
-                            <p>BAGS</p>
+                            <p>Bags</p>
                             <h3>Cotton Blue Shirt</h3>
                             <p>$89.00</p>
-                        </figure>
+                            <div>
+                                <input type="submit" value="Add to Cart" class="cart">
+                            </div>                        </figure>
                     </div>
                     <div class="carousel-cell">
                         <figure>
                             <img alt="Denim Overalls" src="images/demin-overall-shorts.jpg">
-                            <p>DENIM</p>
+                            <p>Denim</p>
                             <h3>Denim Overall Shorts</h3>
                             <p>$89.00</p>
-                        </figure>
+                            <div>
+                                <input type="submit" value="Add to Cart" class="cart">
+                            </div>                        </figure>
                     </div>
                     <div class="carousel-cell">
                         <figure>
                             <img alt="Pink Polkadot Dress" src="images/pink-dotted-dress.jpg">
-                            <p>DRESSES</p>
+                            <p>Dresses</p>
                             <h3>Pink Dotted Dress</h3>
                             <p>$99.00</p>
+                            <div>
+                                <input type="submit" value="Add to Cart" class="cart">
+                            </div>                        </figure>
+                    </div>
+                    <div class="carousel-cell ">
+                        <figure>
+                            <img alt="Yellow Shirt" src="images/cotton-yellow-tshirt.jpg">
+                            <p>Shirts</p>
+                            <h3>Cotton Yellow Shirt</h3>
+                            <p>$89.00</p>
+                            <div>
+                                <input type="submit" value="Add to Cart" class="cart">
+                            </div>
                         </figure>
+                    </div>
+                    <div class="carousel-cell">
+                        <figure>
+                            <img alt="Blue Dress" src="images/blue-silk-dress.jpg">
+                            <p>Dresses</p>
+                            <h3>Blue Silk Dress</h3>
+                            <p>$99.00</p>
+                            <div>
+                                <input type="submit" value="Add to Cart" class="cart">
+                            </div>                        </figure>
                     </div>
             </div>            
         </section>
