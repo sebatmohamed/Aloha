@@ -103,6 +103,11 @@ body {
   color: #2d2d2d;
   font-size: 14px;
 }
+
+/* Header 
+Section 
+*/
+
 header {
   width: 100%;
   position: fixed;
@@ -122,11 +127,19 @@ header {
   width: 50px;
   margin-right: 10px;
 }
+.notif-text {
+  display: none;
+}
+
+/* Nav 
+Section 
+*/
+
 .navigation-bar {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  /* margin-top: -10px; */
+  margin-top: -10px;
   margin-left: 10px;
   margin-right: 10px;
   font-family: "Raleway";
@@ -136,9 +149,8 @@ header {
   color: #e2574c;
   text-decoration: none;
 }
-.navigation-bar li:nth-child(3) a {
+.navigation-bar li a:hover {
   color: #b64036;
-  text-decoration: none;
 }
 .navigation-bar li {
   padding: 10px;
@@ -150,6 +162,11 @@ header {
 .empty-space {
   padding-bottom: 8em;
 }
+
+/* Hero Banner 
+Section 
+*/
+
 .banner {
   margin-top: 0px;
   width: 100%;
@@ -157,7 +174,7 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(../images/banner-girl.png) center bottom no-repeat,
     url(../images/flower-bkgd.jpg) center no-repeat;
-  background-size: 650px, 140px;
+  background-size: cover, 140px;
   color: white;
   display: flex;
   justify-content: center;
@@ -174,24 +191,37 @@ header {
   font-weight: 400;
   font-size: 50px;
 }
+
+/* About 
+Section 
+*/
+.about {
+  padding: 30px;
+  text-align: center;
+}
 h2 {
   font-family: "Playfair Display Italic";
   font-size: 30px;
-  text-align: center;
-  margin-top: 50px;
+  /* text-align: center; */
+  /* margin-top: 50px; */
 }
 .style {
   font-family: "Playfair Display Bold";
   font-style: normal;
 }
 .paragraph-text {
-  text-align: center;
+  /* text-align: center; */
   margin-top: 20px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   line-height: 30px;
-  width: 85%;
-  margin-left: 2em;
+  /* padding-left: 30px; */
+  color: #969696;
 }
+
+/* Grid 
+Section 
+*/
+
 .flex-grid {
   display: flex;
   flex-flow: row wrap;
@@ -275,8 +305,16 @@ h2 {
   flex-direction: row;
   width: 100%;
 }
+
+/* Products 
+Section 
+*/
+
 .product-info {
   text-align: center;
+}
+.product-info h2 {
+  margin-top: 30px;
 }
 h3 {
   font-family: "Playfair Display";
@@ -285,21 +323,32 @@ h3 {
   padding-bottom: 20px;
   font-size: 25px;
 }
+figure {
+  margin-top: 30px;
+}
 .product-info figure p {
   color: #969696;
   font-weight: 500;
   text-transform: uppercase;
 }
 .product-info figure input {
-  display: none; 
+  display: none;
 }
 .carousel-cell {
   width: 100%;
 }
+button {
+  display: none;
+}
+
+/* Suscribe 
+Section 
+*/
+
 .bottom-banner {
   width: 100%;
-  height: 22em;
-  margin-top: 4em;
+  height: 300px;
+  margin-top: 90px;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../images/wave-bkgd.jpg) bottom no-repeat;
   background-size: 1280px;
@@ -307,20 +356,16 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #d7d7d7;
+  color: white;
 }
-.bottom-banner h2 {
+.bottom-banner div {
   text-align: center;
-  margin-top: 0.75em;
+  padding: 20px;
 }
 .bottom-banner p {
-  text-align: center;
   line-height: 30px;
-  margin-bottom: 20px;
-  width: 90%;
-  margin-left: 1.25em;
   font-size: 14px;
-  margin-top: 2em;
+  margin-top: 20px;
 }
 .form {
   display: flex;
@@ -349,6 +394,11 @@ h3 {
   font-size: 14px;
   font-family: "Raleway";
 }
+
+/* Footer 
+Section  
+*/
+
 .footer-text {
   height: 20em;
   margin-top: 0.5em;
@@ -381,19 +431,28 @@ h3 {
 .social-links span {
   display: none;
 }
+
+/* Tablet 
+Version 
+*/
+
 @media (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
   header {
     margin-bottom: none;
     margin-top: none;
+    padding-bottom: 0.5em;
   }
-  .header-img {
+  /* .header-img {
     justify-content: space-between;
-  }
+  } */
   header hr {
     display: none;
   }
   .empty-space {
-    padding-bottom: 5.5em;
+    padding-bottom: 5em;
   }
   .navigation-bar {
     margin-top: -3em;
@@ -401,8 +460,12 @@ h3 {
     margin-left: 10em;
   }
   .banner {
-    height: 25em;
-    background-size: 100%, 20%;
+    height: 400px;
+    background-size: cover, 20%;
+  }
+  .paragraph-text {
+    /* padding-left: 55px; */
+    font-size: 16px;
   }
   .small {
     width: 50%;
@@ -433,7 +496,18 @@ h3 {
     border-left: 4px solid white;
   }
   .bottom-banner {
-    background-size: 125em;
+    background-size: 1800px;
+    background-position: bottom;
+    height: 450px;
+  }
+  .bottom-banner h2 {
+    /* margin-top: -30px; */
+    font-size: 50px;
+  }
+  .bottom-banner p {
+    font-size: 25px;
+    line-height: 50px;
+    /* margin-bottom: 50px; */
   }
   .footer-text {
     flex-direction: row;
@@ -449,8 +523,9 @@ h3 {
   }
   .social-links {
     flex-direction: column;
+    width: 50%;
     padding: 0px;
-    font-family: 'Raleway';
+    font-family: "Raleway";
   }
   .social-links span {
     display: inline;
@@ -460,11 +535,19 @@ h3 {
   }
   .social-links li {
     padding: 0.5em;
-    margin-left: 7em;
+    margin-left: 200px;
     text-align: start;
   }
 }
+
+/* Desktop 
+Version 
+*/
+
 @media (min-width: 1240px) {
+  body {
+    font-size: 16px;
+  }
   .header-img {
     margin-top: 15px;
   }
@@ -480,11 +563,22 @@ h3 {
     justify-content: center;
   }
   .notif {
+    margin-top: -5px;
     position: absolute;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background: red;
+    width: 21.5px;
+    height: 21px;
+    border-radius: 100%;
+    background-color: #e2574c;
+  }
+  .notif-text {
+    display: initial;
+    position: relative;
+    color: white;
+    font-size: 16px;
+    font-family: "Raleway";
+    text-align: center;
+    left: 5px;
+    top: 2px;
   }
   nav {
     margin-bottom: 1em;
@@ -493,8 +587,12 @@ h3 {
     justify-content: center;
   }
   .banner {
-    height: 40em;
-    background-size: 100%, 16%;
+    height: 550px;
+    background-size: cover, 15%;
+  }
+  .paragraph-text {
+    padding-left: 340px;
+    width: 50%;
   }
   .img1 {
     width: 50%;
@@ -505,19 +603,21 @@ h3 {
   .row p {
     height: 375px;
   }
-  .product-info figure input {
-    display: inline;
-    border-radius: 40px;
-    background-color: black;
-    padding: 5px 20px;
-  }
   .product-info figure div {
     padding-bottom: 20px;
     padding-top: 20px;
   }
+  button {
+    display: initial;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #242424;
+    font-family: 'Raleway Light';
+  }
   .cart {
     color: white;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-size: 16px;
   }
   .carousel-cell {
@@ -525,9 +625,16 @@ h3 {
     margin-right: 10px;
   }
   .bottom-banner {
-    background-size: 100%;
+    height: 410px;
   }
-  .bottom-banner h2 {
-    margin-top: -1em;
+  .bottom-banner p {
+    padding-left: 200px;
+    width: 70%;
+  }
+  .footer-text div {
+    margin-left: 30px;
+  }
+  .social-links li {
+    margin-left: 400px;
   }
 }
