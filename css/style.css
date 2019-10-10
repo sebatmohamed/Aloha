@@ -103,7 +103,6 @@ body {
   color: #2d2d2d;
   font-size: 14px;
 }
-
 /* Header 
 Section 
 */
@@ -174,7 +173,7 @@ Section
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(../images/banner-girl.png) center bottom no-repeat,
     url(../images/flower-bkgd.jpg) center no-repeat;
-  background-size: cover, 140px;
+  background-size: cover, 40%;
   color: white;
   display: flex;
   justify-content: center;
@@ -195,30 +194,29 @@ Section
 /* About 
 Section 
 */
+
 .about {
-  padding: 30px;
+  margin-top: 50px;
   text-align: center;
 }
 h2 {
   font-family: "Playfair Display Italic";
   font-size: 30px;
-  /* text-align: center; */
-  /* margin-top: 50px; */
 }
 .style {
   font-family: "Playfair Display Bold";
   font-style: normal;
 }
 .paragraph-text {
-  /* text-align: center; */
   margin-top: 20px;
-  /* margin-bottom: 50px; */
+  margin-bottom: 50px;
   line-height: 30px;
-  /* padding-left: 30px; */
+  padding-left: 30px;
+  padding-right: 30px;
   color: #969696;
 }
 
-/* Grid 
+/* Shop 
 Section 
 */
 
@@ -306,15 +304,12 @@ Section
   width: 100%;
 }
 
-/* Products 
+/* Featured 
 Section 
 */
 
 .product-info {
   text-align: center;
-}
-.product-info h2 {
-  margin-top: 30px;
 }
 h3 {
   font-family: "Playfair Display";
@@ -325,6 +320,9 @@ h3 {
 }
 figure {
   margin-top: 30px;
+}
+.product-info h2 {
+  margin-top: 50px;
 }
 .product-info figure p {
   color: #969696;
@@ -341,7 +339,7 @@ button {
   display: none;
 }
 
-/* Suscribe 
+/* Updates 
 Section 
 */
 
@@ -371,12 +369,12 @@ Section
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
 }
 .email {
   border-radius: 20px;
-  padding: 13px 80px 13px 15px;
+  padding: 13px 100px 13px 15px;
   border-width: 0px;
-  position: relative;
   color: #969696;
   text-align: left;
   width: 230px;
@@ -390,7 +388,7 @@ Section
   color: white;
   border-width: 0px;
   position: absolute;
-  margin-left: -4px;
+  right: 4px;
   font-size: 14px;
   font-family: "Raleway";
 }
@@ -445,9 +443,6 @@ Version
     margin-top: none;
     padding-bottom: 0.5em;
   }
-  /* .header-img {
-    justify-content: space-between;
-  } */
   header hr {
     display: none;
   }
@@ -460,11 +455,12 @@ Version
     margin-left: 10em;
   }
   .banner {
-    height: 400px;
+    height: 415px;
     background-size: cover, 20%;
   }
   .paragraph-text {
-    /* padding-left: 55px; */
+    padding-left: 65px;
+    padding-right: 65px;
     font-size: 16px;
   }
   .small {
@@ -501,13 +497,12 @@ Version
     height: 450px;
   }
   .bottom-banner h2 {
-    /* margin-top: -30px; */
+    margin-top: -30px;
     font-size: 50px;
   }
   .bottom-banner p {
     font-size: 25px;
     line-height: 50px;
-    /* margin-bottom: 50px; */
   }
   .footer-text {
     flex-direction: row;
@@ -561,18 +556,20 @@ Version
   .cart-notif {
     display: flex;
     justify-content: center;
+    margin-right: -30px;
   }
   .notif {
     margin-top: -5px;
-    position: absolute;
+    position: relative;
     width: 21.5px;
     height: 21px;
     border-radius: 100%;
     background-color: #e2574c;
+    right: 58px;
   }
   .notif-text {
     display: initial;
-    position: relative;
+    position: absolute;
     color: white;
     font-size: 16px;
     font-family: "Raleway";
@@ -591,7 +588,7 @@ Version
     background-size: cover, 15%;
   }
   .paragraph-text {
-    padding-left: 340px;
+    padding-left: 300px;
     width: 50%;
   }
   .img1 {
@@ -628,8 +625,12 @@ Version
     height: 410px;
   }
   .bottom-banner p {
-    padding-left: 200px;
-    width: 70%;
+    padding-left: 120px;
+    width: 80%;
+    margin-top: 20px;
+  }
+  .email {
+    width: 300px;
   }
   .footer-text div {
     margin-left: 30px;

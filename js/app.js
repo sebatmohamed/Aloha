@@ -18,24 +18,15 @@ const input = document.getElementsByTagName("input");
 
 input[1].addEventListener("click", function(event) {
   event.preventDefault()
-
-  
-
-
-
-  alert("Thanks for subscribing!")
   console.log(input)
-  console.log(input[0].value)
- 
-  // validateEmail = [RegExp(/^.+@.+\..+$/.test("email"))]
-  // if (email == false) {
-  //   alert("Please enter valid email address")
-  // } else {
-  //   alert ("Thanks for subscribing!")
-  // }
+  const email = input[0].value
+  console.log(email)
+  const validateEmail = email.indexOf("@")
+  console.log(validateEmail)
+  if (validateEmail < 1) {
+    alert("Please enter valid email address")
+  } else {
+    alert("Thanks for subscribing!")
+  }
+  input[0].value = ""
 })
-
-// const name = prompt("")
-// function validEmail("beforeSymbol", "mySymbol", "afterSymbol", "theDot") {
-
-}
