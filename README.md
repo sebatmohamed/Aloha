@@ -1,10 +1,8 @@
 # Aloha Homepage
-
 Recreate this one page e-commerce homepage for your client the Aloha Apparel Co. using HTML, CSS and vanilla JavaScript. Be sure to implement a mobile-first, responsive layout with flexbox (optimized for the three required screen sizes).
 
 ## Downloads
-
-```Find the <a href="https://s3-us-west-2.amazonaws.com/red-wdp/project-files/project-01.zip">files</a> here to help you create your client's homepage.```
+```Find the [responsive layouts] (./assets) and [pictures] (./images) needed in the assets and images folder respectively to help you create your client's homepage.```
 
 ## Functional Requirements
 Your project must:
@@ -14,6 +12,15 @@ Your project must:
 * Incorporate “smooth scrolling” into the menu so that it navigates to specific sub-headings within the page
 * Incorporate an image slider using a JavaScript plugin for the featured product area (Flickity is a good choice)
 * Display an alert box that says “Thanks for subscribing!” whenever a user successfully submits the newsletter form with a valid email address, otherwise they should see a message in the alert box that asks them to enter a valid email address
+
+#### Note
+As this project first introduces you to fundamental JavaScript, please use a these methods to accomplis the last bullet point of the function requirements:
+
+```array.forEach(element => {});```
+
+```if (condition) {} else {}```
+
+Come back and challenge yourself by identifying a more advanced way of accomplishing this requirement!
 
 ## Design Specifications
 
@@ -38,12 +45,10 @@ Your project must:
 * The width of the tablet-friendly content area is 600px
 
 ## Want to challenge yourself?
-
 Update the cart icon in the top-right corner of the header every time the user clicks the “Add to Cart” button for a product and incorporate a fixed header at the top of the page so that the navigation menu is always visible when the user scrolls down the page.
+
+## Learning Goals
+At the end of this project, you should know how to create a grid using flexbox, know how to create responsive web design layouts optimized for mobile, tablet and desktop versions, begin building your foundation in vanilla JavaScript and help you add functionality to websites.
 
 ## Congratulations! 
 Your client is very impressed!
-
-## Learning Goals
-
-At the end of this project, you should know how to create a grid using flexbox, know how to create responsive web design layouts optimized for mobile, tablet and desktop versions, begin building your foundation in vanilla JavaScript and adding functionality to websites.
