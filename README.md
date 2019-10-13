@@ -14,7 +14,7 @@ Your project must:
 * Display an alert box that says “Thanks for subscribing!” whenever a user successfully submits the newsletter form with a valid email address, otherwise they should see a message in the alert box that asks them to enter a valid email address
 
 #### Note
-As this project first introduces you to fundamental JavaScript, please use a these methods to accomplis the last bullet point of the function requirements:
+As this project is a first introduction to basic JavaScript, please use these methods to accomplish the last bullet point of the functional requirements:
 
 ```array.forEach(element => {});```
 
