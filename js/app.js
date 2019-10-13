@@ -6,12 +6,12 @@ let clicks = 0;
 
 cart.forEach(function(element, index) {
   cart[index].addEventListener("click", function add(event) {
-    clicks += 1;
-    cartNumber.innerHTML = clicks;
-    console.log(clicks);
-    console.log(cart);
-  });
-});
+    clicks += 1
+    cartNumber.innerHTML = clicks
+    console.log(clicks)
+    console.log(cart)
+  })
+})
 
 const form = document.getElementsByClassName("form");
 const input = document.getElementsByTagName("input");

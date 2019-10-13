@@ -334,6 +334,8 @@ figure {
 }
 .carousel-cell {
   width: 100%;
+  height: 450px;
+  margin-right: 10px;
 }
 button {
   display: none;
@@ -455,8 +457,9 @@ Version
     margin-left: 10em;
   }
   .banner {
-    height: 415px;
+    height: 350px;
     background-size: cover, 20%;
+    background-position-y: 100%, 125%;
   }
   .paragraph-text {
     padding-left: 65px;
@@ -490,6 +493,11 @@ Version
     box-sizing: border-box;
     border-top: 4px solid white;
     border-left: 4px solid white;
+  }
+  .carousel-cell {
+    width: 50%;
+    height: 450px;
+    margin-right: 10px;
   }
   .bottom-banner {
     background-size: 1800px;
@@ -530,7 +538,7 @@ Version
   }
   .social-links li {
     padding: 0.5em;
-    margin-left: 200px;
+    margin-left: 170px;
     text-align: start;
   }
 }
@@ -574,8 +582,8 @@ Version
     font-size: 16px;
     font-family: "Raleway";
     text-align: center;
-    left: 5px;
-    top: 2px;
+    left: 6px;
+    top: 1.5px;
   }
   nav {
     margin-bottom: 1em;
@@ -587,9 +595,20 @@ Version
     height: 550px;
     background-size: cover, 15%;
   }
+  .banner {
+    background-size: 69%, 15%;
+    background-repeat: repeat-x, no-repeat;
+  }
+  .banner p {
+    font-size: 25px;
+  }
+  .banner p:nth-child(2) {
+    font-size: 80px;
+  }
   .paragraph-text {
     padding-left: 300px;
-    width: 50%;
+    padding-right: 300px;
+    font-size: 18px;
   }
   .img1 {
     width: 50%;
@@ -604,6 +623,11 @@ Version
     padding-bottom: 20px;
     padding-top: 20px;
   }
+  .carousel-cell {
+    width: 33.33%;
+    height: 525px;
+    margin-right: 10px;
+  }
   button {
     display: initial;
     padding: 5px 10px;
@@ -616,10 +640,6 @@ Version
     color: white;
     font-family: "Raleway";
     font-size: 16px;
-  }
-  .carousel-cell {
-    width: 50%;
-    margin-right: 10px;
   }
   .bottom-banner {
     height: 410px;
