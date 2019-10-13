@@ -4,7 +4,7 @@ Recreate this one page e-commerce homepage for your client the Aloha Apparel Co.
 
 ## Downloads
 
-```Find the [files](https://s3-us-west-2.amazonaws.com/red-wdp/project-files/project-01.zip) here to help you create your client's homepage.```
+```Find the <a href="https://s3-us-west-2.amazonaws.com/red-wdp/project-files/project-01.zip">files</a> here to help you create your client's homepage.```
 
 ## Functional Requirements
 Your project must:
@@ -41,7 +41,7 @@ Your project must:
 
 Update the cart icon in the top-right corner of the header every time the user clicks the “Add to Cart” button for a product and incorporate a fixed header at the top of the page so that the navigation menu is always visible when the user scrolls down the page.
 
-# Congratulations! 
+## Congratulations! 
 Your client is very impressed!
 
 ## Learning Goals
