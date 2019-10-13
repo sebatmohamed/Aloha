@@ -1,10 +1,10 @@
 # Aloha Homepage
 
-Recreate this one page e-commerce homepage for your client the Aloha Apparel Co. using HTML, CSS and JavaScript. Then, implement a mobile-first, responsive layout with flexbox (optimized for the three required screen sizes).
+Recreate this one page e-commerce homepage for your client the Aloha Apparel Co. using HTML, CSS and vanilla JavaScript. Be sure to implement a mobile-first, responsive layout with flexbox (optimized for the three required screen sizes).
 
 ## Downloads
 
-```Find the <a href="https://s3-us-west-2.amazonaws.com/red-wdp/project-files/project-01.zip">files</a> here to help you create your client's homepage.```
+```Find the [files](https://s3-us-west-2.amazonaws.com/red-wdp/project-files/project-01.zip) here to help you create your client's homepage.```
 
 ## Functional Requirements
 Your project must:
@@ -41,4 +41,9 @@ Your project must:
 
 Update the cart icon in the top-right corner of the header every time the user clicks the “Add to Cart” button for a product and incorporate a fixed header at the top of the page so that the navigation menu is always visible when the user scrolls down the page.
 
-Congratulations! Your client is very impressed!
+# Congratulations! 
+Your client is very impressed!
+
+## Learning Goals
+
+At the end of this project, you should know how to create a grid using flexbox, know how to create responsive web design layouts optimized for mobile, tablet and desktop versions, begin building your foundation in vanilla JavaScript and adding functionality to websites.
