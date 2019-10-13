@@ -2,7 +2,7 @@
 Recreate this one page e-commerce homepage for your client the Aloha Apparel Co. using HTML, CSS and vanilla JavaScript. Be sure to implement a mobile-first, responsive layout with flexbox (optimized for the three required screen sizes).
 
 ## Downloads
-```Find the [responsive layouts] (./assets) and [pictures] (./images) needed in the assets and images folder respectively to help you create your client's homepage.```
+Find the responsive layouts and pictures needed in the assets and images folder, respectively to help you create your client's homepage.
 
 ## Functional Requirements
 Your project must:
@@ -21,6 +21,7 @@ As this project first introduces you to fundamental JavaScript, please use a the
 ```if (condition) {} else {}```
 
 Come back and challenge yourself by identifying a more advanced way of accomplishing this requirement!
+
 
 ## Design Specifications
 
