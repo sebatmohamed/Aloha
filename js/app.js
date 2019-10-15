@@ -30,6 +30,3 @@ input[1].addEventListener("click", function(event) {
   }
   input[0].value = ""
 })
-
-const scroll = document.querySelectorAll("a")
-console.log(scroll)
