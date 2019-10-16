@@ -51,5 +51,7 @@ Update the cart icon in the top-right corner of the header every time the user c
 ## Learning Goals
 At the end of this project, you should know how to create a grid using flexbox, know how to create responsive web design layouts optimized for mobile, tablet and desktop versions, begin building your foundation in vanilla JavaScript and help you add functionality to websites.
 
+I used Visual Studio Code to create my .html, .css and .js files. I created all my files for this project through the terminal. I also began learning the foundations of vanilla JS.
+
 ## Congratulations! 
 Your client is very impressed!
