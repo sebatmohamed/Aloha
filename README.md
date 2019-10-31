@@ -1,5 +1,7 @@
 # Aloha Homepage
-A responsive one page mobile e-commerce webiste 
+A responsive one page mobile e-commerce website
+
+[Aloha.mov]
 
 ## Technologies Used
 
