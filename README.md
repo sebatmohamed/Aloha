@@ -1,7 +1,8 @@
 # Aloha Homepage
 A responsive one page mobile e-commerce website
 
-[Aloha.mov]
+![alt text](https://github.com/sebatmohamed/Aloha/blob/master/Aloha-pic1.png) 
+![alt text](https://github.com/sebatmohamed/Aloha/blob/master/Aloha-pic2.png) 
 
 ## Technologies Used
 
