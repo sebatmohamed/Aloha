@@ -599,10 +599,7 @@ Version
   .banner {
     height: 550px;
     background-size: cover, 15%;
-  }
-  .banner {
-    background-size: 69%, 15%;
-    background-repeat: repeat-x, no-repeat;
+    background-position-y: 100%, 125%;
   }
   .banner p {
     font-size: 25px;

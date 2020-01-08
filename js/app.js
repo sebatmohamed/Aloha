@@ -18,11 +18,8 @@ const input = document.getElementsByTagName("input");
 
 input[1].addEventListener("click", function(event) {
   event.preventDefault()
-  console.log(input)
   const email = input[0].value
-  console.log(email)
   const validateEmail = email.indexOf("@")
-  console.log(validateEmail)
   if (validateEmail < 1) {
     alert("Please enter valid email address")
   } else {
