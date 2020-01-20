@@ -178,7 +178,7 @@ Section
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(../images/banner-girl.png) center bottom no-repeat,
     url(../images/flower-bkgd.jpg) center no-repeat;
-  background-size: cover, 40%;
+  background-size: cover, 30%;
   color: white;
   display: flex;
   justify-content: center;
@@ -462,9 +462,9 @@ Version
     margin-left: 10em;
   }
   .banner {
-    height: 350px;
-    background-size: cover, 20%;
-    background-position-y: 100%, 125%;
+    height: 375px;
+    background-size: cover, 16%;
+    background-position-y: 100%;
   }
   .paragraph-text {
     padding-left: 65px;
@@ -552,7 +552,7 @@ Version
 Version 
 */
 
-@media (min-width: 1240px) {
+@media (min-width: 1024px) {
   body {
     font-size: 16px;
   }
